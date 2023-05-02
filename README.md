@@ -1,9 +1,9 @@
 # WorkTimeLoggingServer
-Main function
+#Main function
 
 This is the entry point for running the HTTP server for managing employee log data.
 
-Usage
+#Usage
 
 To start the server, simply run the Main class. The server will listen on port 8080 by default.
 
@@ -16,7 +16,7 @@ GET /info: Returns a JSON object containing the log data for all employees.
 The server responds with an HTTP 200 OK status code if the request was successful, and an HTTP 500 Internal Server Error status code if an error occurred. The response body contains the requested data in JSON format.
 
 
-Dependencies
+#Dependencies
 
 The Main function requires the following dependencies to be on the classpath:
 com.sun.net.httpserver.HttpServer: The built-in Java HTTP server library.
